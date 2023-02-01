@@ -13,7 +13,7 @@ if __name__ == '__main__':
         print("Los operandos tiene que ser numeros: {0} + {1} ".format(sumando1, sumando2))
         # raise ValueError
 
-    sumando1 = "a"
+    sumando1 = "3a"
     sumando2 = 4
     try:
         resultado = operacion.suma(sumando1,sumando2)
